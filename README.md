@@ -1,16 +1,93 @@
-# React + Vite
+# AI-Powered Mock Interview System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered interview preparation platform that simulates real interview experiences and provides intelligent feedback to help users improve their interview skills.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* AI-generated interview questions
+* Technical and HR interview simulations
+* Real-time interview experience
+* Personalized feedback and evaluation
+* Performance tracking and analysis
+* User-friendly dashboard
+* Responsive design for all devices
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
 
-## Expanding the ESLint configuration
+* React.js
+* Vite
+* TypeScript
+* Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+
+* Node.js
+* Express.js
+
+### AI Integration
+
+* Gemini AI / OpenAI API
+
+## Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/Jerry-Abhi/AI-powered-mock-interview-system.git
+```
+
+### Navigate to the project
+
+```bash
+cd AI-powered-mock-interview-system
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Configure environment variables
+
+Create a `.env` file and add the required API keys.
+
+```env
+AI_API_KEY=your_api_key_here
+```
+
+### Run the application
+
+```bash
+npm run dev
+```
+
+## Project Structure
+
+```text
+src/
+public/
+server/
+package.json
+README.md
+```
+
+## Future Enhancements
+
+* Voice-based interviews
+* Resume analysis
+* AI-generated improvement suggestions
+* Mock interview history
+* Interview score analytics
+
+## Author
+
+**Abhishek Anand**
+
+GitHub: https://github.com/Jerry-Abhi
+
+---
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
