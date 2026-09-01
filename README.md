@@ -1,5 +1,9 @@
 # AI-Powered Mock Interview System
 
+## Preview
+
+![AI-Powered Mock Interview System](ZIVA.png)
+
 An AI-powered interview preparation platform that simulates real interview experiences and provides intelligent feedback to help users improve their interview skills.
 
 ## Features
